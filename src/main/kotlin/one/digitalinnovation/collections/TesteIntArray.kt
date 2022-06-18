@@ -1,7 +1,7 @@
 package one.digitalinnovation.collections
 
 fun main() {
-    val values = IntArray(6)
+    val values = IntArray(7)
     values[0] = 1
     values[1] = 7
     values[2] = 6
@@ -19,7 +19,7 @@ fun main() {
 
     println("-----")
     for (index in values.indices) { // Printo usando como referência o índice da array e não o elemento atribuído.
-        println(values[index])
+        println(values)
     }
 
     println("-----")
